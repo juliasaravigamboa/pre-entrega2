@@ -148,6 +148,6 @@ const distritos = [
   },
 ];
 
-const distritoBuscado = distritos.filter((el) => votantes < 70000);
-return distritoBuscado;
+const distritoBuscado = distritos.filter((el) => (el.votantes > 70000);
+
 alert(distritoBuscado);
